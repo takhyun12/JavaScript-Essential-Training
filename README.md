@@ -11,5 +11,5 @@
 
 ## Table of Contents
 
-1. [Mathematics for Machine Learning: Linear Algebra](https://github.com/takhyun12/Mathematics-for-Machine-Learning/tree/main/Linear%20Algebra)
+1. [script async와 defer의 차이점](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Script%20async%20and%20defer.md)
 2. 
