@@ -37,3 +37,11 @@ let globalName = 'superman'; // global scope
 console.log(name); // 변수선언 전 사용해도 오류가 발생하지 않음
 var name = 'batman';
 ```
+
+### Contants
+* 한번 선언하면 절대로 값을 바꿀수 없는 상수 (immutable data type)
+
+```javascript
+const daysInWeek = 7;
+const softwareName = 'Test';
+```
