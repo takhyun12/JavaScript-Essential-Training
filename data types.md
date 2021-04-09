@@ -1,9 +1,3 @@
-# JavaScript Essential Training
-
-#### Author: Tackhyun Jung
-
-#### Status: ~ing
-
 ## References
 
 * 자바스크립트 공식 사이트 : ecma-international.org
