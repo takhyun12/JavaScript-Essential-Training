@@ -55,7 +55,6 @@ const softwareName = 'Test';
 
 ### Data types for number
 * 다른 언어와 달리 js의 number는 데이터의 크기를 고려할 필요가 없음
-* 기본적인 number는 over (-2**53) ~ 2*53 이지만, 
 * js에서는 type이 dynamic하게 설정되기 때문에 number로 선언할 필요는 없음
 
 ```javascript
@@ -67,6 +66,13 @@ let b = 1.2;
 // typescript
 let a: number = 12;
 let b: number = 1.2;
+```
+
+* 기본적인 number는 over (-2**53) ~ 2*53 이다.
+* 숫자의 마지막에 'n'을 붙히면 bigint type으로 변환된다.
+
+```javascript
+const bigInt = 1234567890123456789012345678901234567890n;
 ```
 
 ### Infinity, -Infinity and NaN
