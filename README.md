@@ -1,4 +1,4 @@
-# JavaScript Learning
+# JavaScript Essential Training
 
 #### Author: Tackhyun Jung
 
