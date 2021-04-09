@@ -18,6 +18,7 @@
 ## JavaScript 문법
 
 ### let variable (added in ES6)
+* ES6 이상의 js에서 변수를 선언하는 유일한 방법 (var는 권장하지 않음)
 
 ```javascript
 let globalName = 'superman'; // global scope
@@ -25,6 +26,13 @@ let globalName = 'superman'; // global scope
   let name = 'batman';
   console.log(name);
 } // block scope
-
 ```
 
+### var variable
+* ES6 이전의 js에서 사용하였고, 현재는 권장하지 않는 방법
+* var hoisting issue가 있음 (선언부를 최상단으로 올림)
+* bloack scope을 무시하는 문제가 
+```javascript
+console.log(name); # 변수선언 전 사용해도 오류가 발생하지 않음
+var name = 'batman';
+```
