@@ -4,8 +4,7 @@
 
 #### Status: Completed
 
-## Script async와 defer의 차
-
+## Script async와 defer의 차이
 * Basis (Linear Algebra)
 * Transformation Matrix
 * Linear Algebra
