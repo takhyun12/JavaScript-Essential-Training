@@ -1,9 +1,3 @@
-## References
-
-* 자바스크립트 공식 사이트 : ecma-international.org
-* 자바스크립트 문법 참조 사이트 : develpoer.mozilla.org
-* [Youtube 드림코딩 by 엘리](https://www.youtube.com/watch?v=tJieVCgGzhs&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=2)
-
 ## Script async와 defer의 차이
 
 일반적으로 js를 참조하게 되면 한줄씩 parsing하여 DOM 요소로 변환함.
