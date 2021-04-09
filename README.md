@@ -10,9 +10,4 @@
 * Transformation Matrix
 * Linear Algebra
 * Linear Regression
-* Vector Calculus
-* Multivariable Calculus
-* Gradient Descent
-* Dimensionality Reduction
-* Python Programming
 
