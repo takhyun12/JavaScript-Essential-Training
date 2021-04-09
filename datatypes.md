@@ -94,5 +94,35 @@ console.log(`value: ${msg}, type: ${typeof msg}`);
 ```
 
 ### Data types for boolean
-* false
-* template literals : python의 'name: {0}'.format(name)과 동일 
+* false: 0, null, undefined, NaN, ''
+* true: any other value
+
+## null and undefinded
+* null은 개발자가 지정해야 하는 type
+* undefinded는 null인지 조차 알 수 없는 type
+
+```javascript
+let nothing = null;  // null
+let undefinded;  // undefinded
+```
+
+## symbol, create unique idenfifiers for objects
+* map 등의 자료구조나 동시처리에서 고유 식별자를 만들기 위한 type
+* Symbol.for를 사용하면, 특정 tring에 대한 고유 식별자를 만듬
+
+```javascript
+const symbol1 = Symbol('id')
+const symbol2 = Symbol('id')
+console.log(symbol1 === symbol2)  // false
+
+const symbol3 = Symbol.for('id')
+const symbol4 = Symbol.for('id')
+console.log(symbol3 === symbol4)  // true
+```
+
+* symbol.description을 통해 string type으로 변환 후 사용가능
+
+```javascript
+const symbol1 = Symbol('id')
+console.log(`value: ${sysmbol1.description}`)
+```
