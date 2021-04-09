@@ -2,12 +2,12 @@
 
 #### Author: Tackhyun Jung
 
-#### Status: Completed
+#### Status: ~ing
 
 ## Script async와 defer의 차이
 ```
 * 자바스크립트 공식 사이트 : ecma-international.org
-* 자바스크립트 참조 사이트 : develpoer.mozilla.org
+* 자바스크립트 문법 참조 사이트 : develpoer.mozilla.org
 
 
 
