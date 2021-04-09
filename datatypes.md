@@ -128,7 +128,7 @@ console.log(`value: ${sysmbol1.description}`)
 ```
 
 ## dynamic typing : dynamically typed language (=python)
-* js는 runtime에서 type을 결정하기 때문에 typescript 탄생하게 
+* dynamic typing에 의해 runtime에서 type을 결정하기 때문에 오류 발생 가능
 
 ```javascript
 text = '7' + 5;  // 75(string)
