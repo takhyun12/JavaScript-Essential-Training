@@ -62,9 +62,15 @@ const softwareName = 'Test';
 let a = 12;
 let b = 1.2;
 ```
-
 ```typescript
 // typescript
 let a: number = 12;
 let b: number = 1.2;
+```
+
+### Infinity, -Infinity and NaN
+```javascript
+const infinity = 1 / 0;  // Infinity
+const negativeInfinity = -1 / 0;  // -Infinity
+const nAn = 'string' / 2;  // NaN
 ```
