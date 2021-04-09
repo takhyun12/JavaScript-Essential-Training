@@ -20,9 +20,11 @@
 ### let variable (added in ES6)
 
 ```javascript
-let name = 'batman';
-console.log(name);
-
+let globalName = 'superman'; // global variable
+{  
+  let name = 'batman';
+  console.log(name);
+} // block scope
 
 ```
 
