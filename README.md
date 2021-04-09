@@ -5,10 +5,10 @@
 #### Status: Completed
 
 ## Script async와 defer의 차이
-* Basis (Linear Algebra)
-* Transformation Matrix
-
 ## Note
 ```
-dd
+* Javascript 공식 사이트 : ecma-international.org
+
+
+
 ```
