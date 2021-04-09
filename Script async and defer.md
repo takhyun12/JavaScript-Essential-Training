@@ -8,7 +8,7 @@
 
 * 자바스크립트 공식 사이트 : ecma-international.org
 * 자바스크립트 문법 참조 사이트 : develpoer.mozilla.org
-* Youtube 드림코딩 by 엘리 : https://www.youtube.com/watch?v=OCCpGh4ujb8&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=3
+* [Youtube 드림코딩 by 엘리](https://www.youtube.com/watch?v=OCCpGh4ujb8&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=3)
 
 ## Script async와 defer의 차이
 
