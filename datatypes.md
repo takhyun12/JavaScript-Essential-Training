@@ -50,5 +50,6 @@ const softwareName = 'Test';
 ### Variable types
 * primitive type : 더이상 작은 단위로 나누어질 수 없는 single item
 (eg. number, string, boolean, null, undefined, symbol)
+
 * object type : single item를 여러개 묶어서 관리
 * function type : first-class fuction (함수의 파라미터로 전달, 변수로 할당, 리턴으로 사용가능)
