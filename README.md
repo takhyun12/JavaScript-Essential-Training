@@ -4,8 +4,8 @@
 
 #### Status: Completed
 
-## Script async와 defer의 
-* Eigenvalues And Eigenvectors
+## Script async와 defer의 차
+
 * Basis (Linear Algebra)
 * Transformation Matrix
 * Linear Algebra
