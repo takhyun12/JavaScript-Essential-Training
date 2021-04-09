@@ -82,3 +82,11 @@ const infinity = 1 / 0;  // Infinity
 const negativeInfinity = -1 / 0;  // -Infinity
 const nAn = 'string' / 2;  // NaN
 ```
+
+### Data types for string
+* js에서는 한글자부터 여러글자까지 모두 string type으로 처리됨
+* template literals : python의 'name: {0}'.format(name)과 동일 
+```javascript
+const brendan = 'brendan';
+const helloBob = `hi %{brendan}!`;
+```
