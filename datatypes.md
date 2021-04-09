@@ -55,6 +55,7 @@ const softwareName = 'Test';
 
 ### Data types for number
 * 다른 언어와 달리 js의 number는 데이터의 크기를 고려할 필요가 없음
+* 기본적인 number는 over (-2**53) ~ 2*53 이지만, 
 * js에서는 type이 dynamic하게 설정되기 때문에 number로 선언할 필요는 없음
 
 ```javascript
@@ -69,6 +70,7 @@ let b: number = 1.2;
 ```
 
 ### Infinity, -Infinity and NaN
+* 오류를 유발하므로 예외처리 시 확인 필요
 ```javascript
 const infinity = 1 / 0;  // Infinity
 const negativeInfinity = -1 / 0;  // -Infinity
