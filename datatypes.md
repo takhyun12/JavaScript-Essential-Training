@@ -20,7 +20,7 @@
 ### let variable (added in ES6)
 
 ```javascript
-let globalName = 'superman'; // global variable
+let globalName = 'superman'; // global scope
 {  
   let name = 'batman';
   console.log(name);
