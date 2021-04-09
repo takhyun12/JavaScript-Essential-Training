@@ -62,4 +62,7 @@ let a = 12;
 let b = 1.2;
 ```
 
-
+```typescript
+let a: number = 12;
+let b: number = 1.2;
+```
