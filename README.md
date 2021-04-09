@@ -17,9 +17,9 @@
 * 기본 참조방식
 
 ```javascript
-<head> or <body>
+<head>
   <script src="test.js"></script>
-</head> or </body>
+</head>
 ```
 
 -> 이러한 방식으로 참조하게 되면 js를 fetching 하는것을 기다려야 함
