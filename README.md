@@ -12,4 +12,4 @@
 ## Table of Contents
 
 1. [script async와 defer의 차이점](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Script%20async%20and%20defer.md)
-2. 
+2. [data types](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/datatypes.md)
