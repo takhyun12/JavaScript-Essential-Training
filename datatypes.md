@@ -17,7 +17,7 @@
 
 ## JavaScript 문법
 
-### let (added in ES6)
+### Variable type let (added in ES6)
 
 ```javascript
 let name = 'batman';
