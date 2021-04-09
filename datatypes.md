@@ -126,3 +126,11 @@ console.log(symbol3 === symbol4)  // true
 const symbol1 = Symbol('id')
 console.log(`value: ${sysmbol1.description}`)
 ```
+
+## dynamic typing : dynamically typed language (=python)
+* js는 runtime에서 type을 결정하기 때문에 typescript 탄생하게 
+
+```javascript
+text = '7' + 5;  // 75(string)
+text = '8' / '2';  // 4(number)
+```
