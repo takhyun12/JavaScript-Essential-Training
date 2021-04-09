@@ -128,9 +128,17 @@ console.log(`value: ${sysmbol1.description}`)
 ```
 
 ## dynamic typing : dynamically typed language (=python)
-* dynamic typing에 의해 runtime에서 type을 결정하기 때문에 오류 발생 가능
+* js는 runtime에서 type을 결정하기 때문에 type 사용간 유의
 
 ```javascript
 text = '7' + 5;  // 75(string)
 text = '8' / '2';  // 4(number)
 ```
+
+## object type
+* object 자체는 lock에 의해 선언 후 변경할 수 없으나, attribute의 값은 변경 가능
+
+```javascript
+const batMan = { name: 'bruce', age: 20 };
+```
+
