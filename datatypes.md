@@ -19,13 +19,10 @@
 
 ### let (added in ES6)
 
-
-
-### 기본 참조방식
-
 ```javascript
-<head> or <body>
-    <script src="test.js"></script>
-</head> or </body>
+let name = 'batman';
+console.log(name);
+
+
 ```
 
