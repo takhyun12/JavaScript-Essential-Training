@@ -50,6 +50,16 @@ const softwareName = 'Test';
 ### Variable types
 * primitive type : 더이상 작은 단위로 나누어질 수 없는 single item
 (eg. number, string, boolean, null, undefined, symbol)
-
 * object type : single item를 여러개 묶어서 관리
 * function type : first-class fuction (함수의 파라미터로 전달, 변수로 할당, 리턴으로 사용가능)
+
+### Data types for number
+* 다른 언어와 달리 js의 number는 데이터의 크기를 고려할 필요가 없음
+* js에서는 type이 dynamic하게 설정되기 때문에 number로 선언할 필요는 없음
+
+```javascript
+let a = 12;
+let b = 1.2;
+```
+
+
