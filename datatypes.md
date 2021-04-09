@@ -9,11 +9,17 @@
 * 자바스크립트 공식 사이트 : ecma-international.org
 * 자바스크립트 문법 참조 사이트 : develpoer.mozilla.org
 
+## Backgrounds
+
+* ECMAScript 표준 : 브라우저 내 스크립트 엔진 표준
+* SPA(Single page application) : 웹 사이트 내에서 필요한 부분만 업데이트 하는 기술
+* React native(Mobile app), Ngular, nodeJS(Back-end) Electron(Desktop app)
+
 ## JavaScript 문법
 
-일반적으로 js를 참조하게 되면 한줄씩 parsing하여 DOM 요소로 변환함.
+### let (added in ES6)
 
-스트립트 태그를 발견하면, 서버에서 해당 파일을 다운로드 받게 됨(latency가 발생).
+
 
 ### 기본 참조방식
 
