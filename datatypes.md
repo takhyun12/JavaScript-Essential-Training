@@ -58,11 +58,13 @@ const softwareName = 'Test';
 * js에서는 type이 dynamic하게 설정되기 때문에 number로 선언할 필요는 없음
 
 ```javascript
+// javascript
 let a = 12;
 let b = 1.2;
 ```
 
 ```typescript
+// typescript
 let a: number = 12;
 let b: number = 1.2;
 ```
