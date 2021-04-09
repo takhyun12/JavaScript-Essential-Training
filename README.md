@@ -4,7 +4,7 @@
 
 #### Status: Completed
 
-## Script async와 defer의 
+## Script async와 defer의 dd
 * Eigenvalues And Eigenvectors
 * Basis (Linear Algebra)
 * Transformation Matrix
