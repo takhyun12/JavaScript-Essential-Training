@@ -88,5 +88,6 @@ const nAn = 'string' / 2;  // NaN
 * template literals : python의 'name: {0}'.format(name)과 동일 
 ```javascript
 const brendan = 'brendan';
-const helloBob = `hi %{brendan}!`;
+const msg = `hi %{brendan}!`;
+console.log(`value: ${msg}, type: ${typeof msg}`);
 ```
