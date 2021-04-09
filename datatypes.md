@@ -140,5 +140,6 @@ text = '8' / '2';  // 4(number)
 
 ```javascript
 const batMan = { name: 'bruce', age: 20 };
+batMan.age = 21;
 ```
 
