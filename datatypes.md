@@ -40,6 +40,7 @@ var name = 'batman';
 
 ### Contants
 * 한번 선언하면 절대로 값을 바꿀수 없는 상수 (immutable data type)
+* 여러 개의 thread가 동시에 변수에 접근할때 safety를 보장함
 
 ```javascript
 const daysInWeek = 7;
