@@ -83,3 +83,27 @@ console.log(ellie1 === ellie2);  // False
 console.log(ellie1 === ellie3);  // True
 ```
  
+* data type quiz
+```javascript
+console.log(0 == false);  // True
+console.log(0 === false);  // False
+console.log('' == false);  // True
+console.log('' === false);  // False
+console.log(null == undefined);  // True
+console.log(null === undefined);  // False
+```
+
+* Ternary operator: `?`
+```javascript
+console.log(name === 'ellie' ? 'yes' : 'no');  
+```
+
+* do while loop : block 내 코드를 먼저 실행하고 조건에 맞는지 검사
+```javascript
+let i = 0;
+do {
+    console.log('test');
+    i--;
+} while (i > 0);
+```
+
