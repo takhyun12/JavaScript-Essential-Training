@@ -30,4 +30,16 @@ console.log(1 % 1);  // remainder
 console.log(1 ** 1);  // exponentiation
 ```
 
+### Increment and decrement operaion
+```javascript
+let counter =2;
+cost preIncrement = ++counter;
+const postIncrement = counter++;
+```
 
+### Assignment operaion
+```javascript
+let x = 3;
+let y = 6;
+x += y;  // x = x + y;
+```
