@@ -6,7 +6,7 @@
 * 즉, Object 자체는 변경 불가하지만 attribute는 포인터를 통해 값 변경이 수행됨
 
 ## Operators
-### string concatenation
+### string operations
 * 문자열 + 숫자는 문자열로 변환됨
 
 ```javascript
@@ -15,9 +15,19 @@ console.log('1' + 2);
 console.log(`1 + 2 = ${1+2}`);
 ```
 
-* single quote 처리는 `\`
+* single quote issue 처리는 `\`
 ```javascript
 console.log('ellie\'s book');
+```
+
+### numeric operations
+```javascript
+console.log(1 + 1);  // add
+console.log(1 - 1);  // substract
+console.log(1 / 1);  // divide
+console.log(1 * 1);  // multiply
+console.log(1 % 1);  // remainder
+console.log(1 ** 1);  // exponentiation
 ```
 
 
