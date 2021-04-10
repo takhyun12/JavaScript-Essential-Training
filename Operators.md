@@ -43,3 +43,43 @@ let x = 3;
 let y = 6;
 x += y;  // x = x + y;
 ```
+
+### Logical operaion
+* || (or), && (and), ! (not)
+* or 연산자는 첫번째 조건이 True이면, 연산이 멈춘다. (중요)
+* and 연산자는 첫번째 조건이 False이면, 연산이 멈춘다. (중요)
+* 연산속도가 heavy한 연산이 앞 조건으로 가면 비효율적이다. (중요)
+
+```javascript
+console.log(`or: ${value 1 || value 2 || check()}`);
+```
+
+### Equality
+* loose equality, 타입을 자동으로 맞춤 (`==`)
+
+```javascript
+const a = '5'
+const b = 5
+console.log(a == b);  // true
+```
+
+* strict equality, 타입을 엄격하게 체크함 (`===`)
+
+```javascript
+const a = '5'
+const b = 5
+console.log(a === b);  // False
+```
+
+* object equality, 오브젝트는 직접 참조하지 않는 이상 다름을 유의
+
+```javascript
+const ellie1 = { name: 'ellie' };
+const ellie2 = { name: 'ellie' };
+const ellie3 = ellie1;
+
+console.log(ellie1 == ellie2);  // False
+console.log(ellie1 === ellie2);  // False
+console.log(ellie1 === ellie3);  // True
+```
+ 
