@@ -15,5 +15,9 @@ console.log('1' + 2);
 console.log(`1 + 2 = ${1+2}`);
 ```
 
+* single quote 처리는 `\`
+```javascript
+console.log('ellie\'s book');
+```
 
 
