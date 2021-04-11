@@ -1,6 +1,6 @@
 ## Backgrounds (Primitive type vs Object type)
 * Primitive type : 값 자체가 메모리에 저장됨
-* 재할당 다른 문자열로 replace하는것이며, 메모리의 데이터 자체를 수정하는 것은 아님
+* 값 변경시, 다른 문자열로 replace하는것이며, 메모리의 데이터 자체를 수정하는 것은 아님
 ```javascript
 let a = 'bat man';
 a = 'bat man1';
