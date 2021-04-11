@@ -49,6 +49,11 @@ function printHello(...args){
   for (let 1=0; i < args.length; i++){
     console.log(args[i]);
   }
+  
+  for (const arg of args){
+    console.log(arg);  // = python foreach
+  }
 }
 printHello('hello', 'there', '!');
 ```
+
