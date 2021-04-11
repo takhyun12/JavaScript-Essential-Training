@@ -94,11 +94,50 @@ function goodFunction(){
 
 ### Function expression
 * 함수를 변수에 할당해서 사용하는 기법
+* hoisting에 의해 선언부보다 윗단에서 코드 사용가능 (js engine이 위로 올려줌)
 
 ```javascript
-console print = function() {
+print();  // hello
+console print = function() {  // anonymous function (name x)
   console.log('hello');
 }
 print();  // hello
 ```
 
+### Callback function
+* 함수를 전달하여 콜백 수행
+
+```javascript
+function randomQuiz(answer, printYes, printNo){
+  if (answer === 'love you'){
+    printYes();
+  }
+  else{
+    printNo();
+  }
+}
+```
+
+### Arrow function
+* 코드를 간결하게 만들어주며, 무조건 anonymous function이다
+```javascript
+const simplePrint = function (){  // original
+  console.log('test);
+}
+
+const simplePrint = () => console.log('test);  // arrow function
+const add = (a, b) => a + b;
+const simpleMultiply = (a, b) => {
+  // do something 
+  return a * b;  // block 사용 시 return 필수
+}
+```
+
+### IIFE : Immediately Invoked Function Expression
+* 함수의 선언을 괄호로 묶어서 뒤에 `()`를 사용하여 함수처럼 사용
+
+```javascript
+(function hello(){
+  console.log('IIFE');
+})();
+```
