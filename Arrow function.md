@@ -67,10 +67,38 @@ function printMessage(){
   let message = 'hello';
   
   function printAnother(){
-    let child = 'hello';
+    let child = '123';
   }
 }
-printHello('hello', 'there', '!');
 ```
 
+### Early rerurn
+* invert if condition을 통해 빠른 리턴으로 예외처리
+* 조건이 맞지 않는 경우에는 빠르게 리턴 (가독성을 높히기 위함)
+
+```javascript
+function badFunction(){
+  if (user.pint > 10){
+    // long logic
+    return (x)
+  }
+}
+
+function goodFunction(){
+  if (user.pint <= 10){
+    return 
+  }
+  // long logic
+}
+```
+
+### Function expression
+* 함수를 변수에 할당해서 사용하는 기법
+* 
+```javascript
+console print = function() {
+  console.log('hello');
+}
+print();  // hello
+```
 
