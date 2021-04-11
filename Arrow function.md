@@ -94,7 +94,7 @@ function goodFunction(){
 
 ### Function expression
 * 함수를 변수에 할당해서 사용하는 기법
-* 
+
 ```javascript
 console print = function() {
   console.log('hello');
