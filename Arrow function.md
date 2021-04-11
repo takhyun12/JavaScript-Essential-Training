@@ -59,3 +59,18 @@ function printHello(...args){
 printHello('hello', 'there', '!');
 ```
 
+### Scope
+* Closure : 밖에서는 안이 보이지않고, 안에서는 밖을 볼 수 있다.
+```javascript
+let globalMessage = 'global';  // global variable
+function printMessage(){
+  let message = 'hello';
+  
+  function printAnother(){
+    let child = 'hello';
+  }
+}
+printHello('hello', 'there', '!');
+```
+
+
