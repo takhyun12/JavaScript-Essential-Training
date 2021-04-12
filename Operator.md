@@ -34,21 +34,21 @@ console.log(1 % 1);  // remainder
 console.log(1 ** 1);  // exponentiation
 ```
 
-### Increment and decrement operaion
+### Increment and decrement operations
 ```javascript
 let counter =2;
 cost preIncrement = ++counter;
 const postIncrement = counter++;
 ```
 
-### Assignment operaion
+### Assignment operations
 ```javascript
 let x = 3;
 let y = 6;
 x += y;  // x = x + y;
 ```
 
-### Logical operaion
+### Logical operations
 * || (or), && (and), ! (not)
 * or 연산자는 첫번째 조건이 True이면, 연산이 멈춘다. (중요)
 * and 연산자는 첫번째 조건이 False이면, 연산이 멈춘다. (중요)
