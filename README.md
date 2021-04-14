@@ -13,6 +13,6 @@
 ## Table of Contents
 
 1. [Script async와 defer의 차이점](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Script%20async%20and%20defer.md)
-2. [Data types](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/data%20types.md)
+2. [Data types](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Data%20types.md)
 3. [Operator](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Operator.md)
 4. [Function](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Function.md)
