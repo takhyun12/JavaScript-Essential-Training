@@ -16,3 +16,4 @@
 2. [Data types](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Data%20types.md)
 3. [Operator](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Operator.md)
 4. [Function](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Function.md)
+5. [Class](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Class.md)
