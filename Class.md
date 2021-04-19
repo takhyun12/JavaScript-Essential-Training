@@ -63,3 +63,67 @@ class Person{
   }
 }
 ```
+
+### Public, Private Fields
+* 아무런 기호도 붙히지 않으면 Public, `#`을 사용하면 Private
+* private fields는 class 외부에서는 읽거나 변경이 불가능 함
+
+```javascript
+class Experiment{
+  publicField = 2;  // public field
+  #privateField = 0;  // private filed
+}
+```
+
+### Static
+* static을 붙히면 Object 마다 할당되지 않고 class 자체에 정의하는 방법임
+* object에 상관없이, 공통적인 것을 static으로 할당하면 메모리를 절약 가능
+
+```javascript
+class Article{
+  static publisher = 'dream coding';
+  constructor(articleNumber){
+    this.articleNumber = articleNumber;
+  }
+  
+  static printPublisher(){
+    console.log(Article.publisher);
+  }
+}
+
+const article1 = new Article(1);
+const article2 = new Article(2);
+
+console.log(article1.publisher);  // error (undefined)
+console.log(Article.publisher);  // dream coding
+```
+
+### 상속과 다양성
+* 공통적인 특징을 하나로 선언하여 재사용성, 유지보수성 그리고 다양성을 높히는 방법론
+
+```javascript
+class Shape{
+  constructor(width, height, color){
+    this.width = width;
+    this.height = height;
+    this.color = color;
+  }
+  
+  draw(){
+    console.log('drawing!');
+  }
+  
+  getArea(){
+    return width * this.height;
+  }
+}
+```
+
+* Javascript에서 Class를 상속받는 방법으로 부모 클래스의 함수와 필드를 사용 가능
+
+```javascript
+class Rectangle extends Shape {}
+
+const rectangle = new Rectangle(20, 20, 'blue');
+rectangle.draw();
+```
