@@ -17,7 +17,6 @@ class Person{
 ```javascript
 class Person{
   constructor(name, age){  // python의 init과 유사하게 사용가능
-    // field
     this.name = name;
     this.age = age;
   }
