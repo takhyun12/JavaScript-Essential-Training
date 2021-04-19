@@ -98,7 +98,7 @@ console.log(article1.publisher);  // error (undefined)
 console.log(Article.publisher);  // dream coding
 ```
 
-### 상속과 다양성
+### 상속과 다형성
 * 공통적인 특징을 하나로 선언하여 재사용성, 유지보수성 그리고 다양성을 높히는 방법론
 
 ```javascript
