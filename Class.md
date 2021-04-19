@@ -146,5 +146,6 @@ class Triangle extends Shape {
 ```javascript
 console.log(rectangle instanceof Rectangle);
 console.log(triangle instanceof Object);
-}
 ```
+
+### JavaScript 내부 object 정보를 확인 할 수 있는 사이트 : [바로가기](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
