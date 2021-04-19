@@ -25,7 +25,8 @@ class Person{
   }
 }
 ```
-### Class의 사용
+
+### Class의 사용방법
 
 ```javascript
 const ellie = new Person('ellie', 20);
@@ -33,3 +34,32 @@ console.log(ellie.name);
 console.log(ellie.age);
 ```
 
+### Getter와 Setter
+* Class를 사용할 때 잘못된 입력이 들어오는 것이 방지하기 위해 Getter와 Setter 사용
+
+```javascript
+const ellie = new Person('ellie', -1);  // 나이를 -1로 입력함 (잘못된 코드의 예)
+```
+
+* 이러한 문제를 해결하기 위한 Get/Set 적용 예시
+* call stack size exceeded 예방하기 위한 naming 설정 필요(중요)
+
+```javascript
+class Person{
+  constructor(name, age){  // python의 init과 유사하게 사용가능
+    this.name = name;
+    this.age = age;
+  }
+  
+  get age(){
+    return this._age;
+  }
+  
+  set age(value){
+    // if (value < 0{
+    //   throw Error('age can not be negative!');
+    // }
+    this._age = value < 0 ? 0 : value;
+  }
+}
+```
