@@ -127,3 +127,24 @@ class Rectangle extends Shape {}
 const rectangle = new Rectangle(20, 20, 'blue');
 rectangle.draw();
 ```
+
+* Overriding을 통해 필요한 함수만 재정의 해서 사용 가능
+
+```javascript
+class Rectangle extends Shape {}
+class Triangle extends Shape {
+  getArea(){  // overriding
+    return (this.width * this.height) / 2;
+  }
+}
+```
+
+### instanceOf
+* object가 해당 class를 통해 만들어진 것인지 확인하는 방법 (true / false)
+* Javascript의 모든 ojbect는 Object로부터 상속받음
+
+```javascript
+console.log(rectangle instanceof Rectangle);
+console.log(triangle instanceof Object);
+}
+```
