@@ -79,3 +79,22 @@ function Person(name, age){  // 첫글자 대문자
   // return this (생략가능)
 }
 ```
+
+### in operator
+* key가 object에 있는지 확인하는 operator
+```javascript
+console.log('name' in ellie);
+}
+```
+
+### for in and for of
+```javascript
+for (key in ellie){  // for in
+  console.log(key);
+}
+const array = [1, 2, 3, 4];
+for (value of array){  // for of
+  console.log(value);
+}
+
+```
