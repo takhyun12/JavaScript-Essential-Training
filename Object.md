@@ -6,11 +6,14 @@
 
 ### primitive type의 한계점
 ```javascript
-class Person{
-  name;  // field
-  age;   // field
-  speak();  // method
+const name = 'ellie';
+const age = 4;
+print(name, age);
+fuction print(name, age){
+  console.log(name);
+  console.log(age);
 }
+
 ```
 
 ### Class의 선언
