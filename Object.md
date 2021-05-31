@@ -1,9 +1,10 @@
-## Class
-### Class란? 조금 더 연관있는 데이터를 한곳에 묶어놓는 컨테이너(틀)을 만드는 프로그래밍 개념
-* 쉽게말해, Class는 데이터가 들어올 틀을 의미하며, 이를 통해 생성된 instance가 Object이다.
-* Javascript는 ES6에서 추가된 개념임. 이전에는 클래스 없이 Object를 생성했음
-* 일반적으로 field나 method를 가짐, field만 가지고 있다면 데이터 클래스라고 함
+## Object
+### Variable types
+* primitive type : 더이상 작은 단위로 나누어질 수 없는 single item (eg. number, string, boolean, null, undefined, symbol)
+* object type : single item를 여러개 묶어서 관리
+* function type : first-class fuction (함수의 파라미터로 전달, 변수로 할당, 리턴으로 사용가능)
 
+### primitive type의 한계점
 ```javascript
 class Person{
   name;  // field
