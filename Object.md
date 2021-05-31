@@ -1,10 +1,12 @@
 ## Object
 ### Variable types
 * primitive type : 더이상 작은 단위로 나누어질 수 없는 single item (eg. number, string, boolean, null, undefined, symbol)
-* object type : single item를 여러개 묶어서 관리
+* object type : single item(primitive type)를 여러개 묶어서 관리, Object = { key : value }의 형태로 관리
 * function type : first-class fuction (함수의 파라미터로 전달, 변수로 할당, 리턴으로 사용가능)
 
 ### primitive type의 한계점
+* 인자가 많아지면 추가해야할 작업이 많아서 관리의 효율성이 떨어짐. logical 하지 못함
+
 ```javascript
 const name = 'ellie';
 const age = 4;
@@ -13,34 +15,41 @@ fuction print(name, age){
   console.log(name);
   console.log(age);
 }
-
 ```
 
-### Class의 선언
+### Object type 사용 시 이점
+* 호출과 관리가 간편해짐
 
 ```javascript
-class Person{
-  constructor(name, age){  // python의 init과 유사하게 사용가능
-    this.name = name;
-    this.age = age;
-  }
-  speak(){
-    console.log('hi');
-  }
+fuction print(person){
+  console.log(person.name);
+  console.log(person.age);
 }
+
+const ellie = { name: 'ellie'. age: 4 };
 ```
 
-### Class의 사용방법
+### Object의 선언
 
 ```javascript
-const ellie = new Person('ellie', 20);
-console.log(ellie.name);
-console.log(ellie.age);
+const obj1 = {}; // object literal syntax
+const obj2 = new Object(); // object constructor syntax
 ```
 
-### Getter와 Setter
-* Class를 사용할 때 잘못된 입력이 들어오는 것이 방지하기 위해 Getter와 Setter 사용
+### Computed properties
+* properties를 string type으로 object의 value에 접근가능 (=python)
 
 ```javascript
-const ellie = new Person('ellie', -1);  // 나이를 -1로 입력함 (잘못된 코드의 예)
+console.log(ellie.name);  // 코딩할때 사용하는것을 추천
+console.log(ellie['name']);  // 디버깅 등 properties를 모를때 사용하는것을 추천
 ```
+
+```javascript
+function printValue(obj, key){
+  console.log(obj.key);  // x
+  console.log(obj[key]);  // O
+}
+printValue(ellie, 'name');
+```
+
+### Computed properties
