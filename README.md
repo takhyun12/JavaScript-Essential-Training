@@ -17,3 +17,4 @@
 3. [Operator](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Operator.md)
 4. [Function](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Function.md)
 5. [Class](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Class.md)
+6. [Object](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Object.md)
