@@ -107,3 +107,15 @@ const user2 - user
 user2.name = 'coder';
 console.log(user);  // { name: 'coder', age: 20}
 ```
+
+* Object를 완전히 복제하는 방법
+```javascript
+const user = { name: 'ellie', age: 20 };
+
+// method 1
+const user2 = {};
+Object.assign(user2, user);
+
+// method 2 (one line)
+const user2 = Object.assign({}, user);
+```
