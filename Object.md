@@ -41,15 +41,27 @@ const obj2 = new Object(); // object constructor syntax
 
 ```javascript
 console.log(ellie.name);  // 코딩할때 사용하는것을 추천
-console.log(ellie['name']);  // 디버깅 등 properties를 모를때 사용하는것을 추천
+console.log(ellie['name']);  // 동적으로 key/value를 받아올 때 사용하는것을 추천
 ```
 
 ```javascript
-function printValue(obj, key){
-  console.log(obj.key);  // x
+function printValue(obj, key){  // 동적으로 key/value 예시
+  console.log(obj.key);  // X
   console.log(obj[key]);  // O
 }
 printValue(ellie, 'name');
 ```
 
-### Computed properties
+### Property value shorthand
+```javascript
+const person1 = { name: 'bob', age: 2 };
+const person2 = { name: 'steve', age: 3 };
+const person3 = makePerson('ellie', 30);
+
+function makePerson(name, age){  // Property value shorthand 예시
+  return{
+    name,
+    age
+  };
+}
+```
