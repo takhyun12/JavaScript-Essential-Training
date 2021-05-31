@@ -65,3 +65,14 @@ function makePerson(name, age){  // Property value shorthand 예시
   };
 }
 ```
+```javascript
+// 가장 정석적인 방법
+const person1 = { name: 'bob', age: 2 };
+const person2 = { name: 'steve', age: 3 };
+const person3 = new Person('ellie', 30);
+
+function Person(name, age){  // 첫글자 대문자
+  this.name = name;
+  this.age = age;
+}
+```
