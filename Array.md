@@ -42,7 +42,8 @@ fruits.forEach((fruit, index, area) => console.log(fruit, index));
 
 ```javascript
 fruits.push('melon');
-fruits.pop()
+fruits.pop();
+const poped_item = fruits.pop();
 ```
 
 * unshift: add an item from the beggining
