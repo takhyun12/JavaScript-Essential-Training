@@ -103,7 +103,7 @@ for (value of array){  // for of
 * 아래와 같은 코드는 메모리 구조에서 reference를 copy할 뿐 데이터를 카피하지는 않음
 ```javascript
 const user = { name: 'ellie', age: 20 };
-const user2 - user
+const user2 = user
 user2.name = 'coder';
 console.log(user);  // { name: 'coder', age: 20}
 ```
