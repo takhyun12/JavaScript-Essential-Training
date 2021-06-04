@@ -60,10 +60,28 @@ fruits.shift();
 ```javascript
 fruits.push('melon', 'lemon', 'kiwi');
 fruits.splice(1, 1);  // 1번 인덱스부터 n개를 지움 (미지정 시 뒤에 모두를 다 지움)
+fruits.splice(1, 1, 'tomato');  // 1번 인덱스부터 1개를 지우고 토마토를 추가
 ```
 
+* concat : combine two arrays
 
+```javascript
+const fruits2 = ['pear', 'pitch'];
+const newFruits = fruits.concat(fruits2);
+```
 
+* searching : find the index
 
+```javascript
+console.log(fruits.indexOf('apple'));  // 0(index number)
+console.log(fruits.includes('apple'));  // True
+```
 
+* lastIndexOf
+
+```javascript
+const fruit= ['apple', 'banana', 'apple', 'apple'];
+console.log(fruits.indexOf('apple'));  // 0
+console.log(fruits.lastIndexOf('apple')); // 3
+```
 
