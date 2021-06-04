@@ -33,5 +33,37 @@ for (let fruit of fruits){
   console.log(fruit);
 }
 
-fruits.forEach()
+fruits.forEach((fruit, index, area) => console.log(fruit, index));
 ```
+
+### addtion, deletion, copy
+* Push : add an item to the end
+* Pop : remove an item from the end
+
+```javascript
+fruits.push('melon');
+fruits.pop()
+```
+
+* unshift: add an item from the beggining
+* shift: remove an item from the beggining
+* shift와 unshift는 push, pop에 비해 매우 느리다 (중요)
+* 앞에서 데이터를 넣기 위해서는 기존 데이터들을 shifting 하는 과정이 있다
+
+```javascript
+fruits.unshift('melon');
+fruits.shift();
+```
+
+* splice: remove an item by index position
+
+```javascript
+fruits.push('melon', 'lemon', 'kiwi');
+fruits.splice(1, 1);  # 1번 인덱스부터 n개를 지움 (미지정 시 뒤에 모두를 다 지움)
+```
+
+
+
+
+
+
