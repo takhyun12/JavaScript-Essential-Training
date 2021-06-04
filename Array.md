@@ -59,7 +59,7 @@ fruits.shift();
 
 ```javascript
 fruits.push('melon', 'lemon', 'kiwi');
-fruits.splice(1, 1);  # 1번 인덱스부터 n개를 지움 (미지정 시 뒤에 모두를 다 지움)
+fruits.splice(1, 1);  // 1번 인덱스부터 n개를 지움 (미지정 시 뒤에 모두를 다 지움)
 ```
 
 
