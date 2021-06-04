@@ -1,20 +1,31 @@
-## Backgrounds (Primitive type vs Object type)
-* Primitive type : 값 자체가 메모리에 저장됨
-* 값 변경시, 다른 문자열로 replace하는것이며, 메모리의 데이터 자체를 수정하는 것은 아님
-```javascript
-let a = 'bat man';
-a = 'bat man1';
-```
+## Backgrounds
+* 일반적인 자료구조 : 동일한 type의 object를 담는 구조
+* JS의 자료구조(dynamically typed language) : 다른 type의 object를 한번에 담을수 있으나 비권장
 
-* Object : reference를 생성하고 이를 통해 실제 값을 포인팅함 
-* 즉, Object 자체는 변경 불가하지만 attribute는 포인터를 통해 값 변경이 수행됨
-
-## Operators
-### string operations
+## Array
+* 배열의 핵심은 index이며, 이를 통해 삽입, 삭제, 갱신을 수행한다
 * 문자열 + 숫자는 문자열로 변환됨
 
+### Array 선언
+
 ```javascript
-console.log('hello' + 'world');
-console.log('1' + 2);
-console.log(`1 + 2 = ${1+2}`);
+const arr1 = new Array();
+const arr1 = [1, 2];
+```
+
+### index position
+
+```javascript
+const fruits = ['apple', 'banana'];
+console.log(fruits.length);
+console.log(fruits[0]);  # apple
+console.log(fruits[fruits.length - 1]);  # banana
+```
+
+### loop with array
+
+```javascript
+for (let i = 0; i < fruits.length; i++){
+  console.log(fruits[i]);
+}
 ```
