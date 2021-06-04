@@ -18,3 +18,4 @@
 4. [Function](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Function.md)
 5. [Class](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Class.md)
 6. [Object](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Object.md)
+7. [Array](https://github.com/takhyun12/JavaScript-Essential-Training/blob/main/Array.md)
